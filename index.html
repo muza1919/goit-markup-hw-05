@@ -50,6 +50,15 @@
 
             <button type="button" class="btn-service">Замовити послугу</button>
           </div>
+          <div class="backdrop">
+            <div class="modal">
+              <button type="button" class="btn-modal">
+                <svg class="icon-close">
+                  <use href="./images/icons.svg/sprite.svg#icon-close"></use>
+                </svg>
+              </button>
+            </div>
+          </div>
       </section>
       <section class="section padding">
         <div class="container">
@@ -106,13 +115,17 @@
           <h2 class="section-title">Чим ми займаємося</h2>
           <ul class=" work list">
             <li class="work-foto">
-              <img
-                src="./images/programer.jpg"
-                alt="Програміст працює за робочим столом."
-                width="370"
-                height="294"
-              />
+                <img
+                  src="./images/programer.jpg"
+                  alt="Програміст працює за робочим столом."
+                  width="370"
+                  height="294"
+                />
+                <div class="work-descr">
+                  <h3 class="work-text">Десктопні додатки</h3>
+                </div>
             </li>
+          
             <li class="work-foto">
               <img
                 src="./images/ui.jpg"
@@ -120,6 +133,9 @@
                 width="370"
                 height="294"
               />
+              <div class="work-descr">
+                <h3 class="work-text">Мобільні додатки</h3>
+              </div>
             </li>
             <li class="work-foto">
               <img
@@ -128,6 +144,10 @@
                 width="370"
                 height="294"
               />
+            
+              <div class="work-descr">
+                <h3 class="work-text">Дизайнерські рішення</h3>
+              </div>
             </li>
           </ul>
         </div>
@@ -378,5 +398,7 @@
        </div>
       </div>
     </footer>
+    
+    <script src="./js/modal.js"></script>
   </body>
 </html>
