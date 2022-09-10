@@ -48,11 +48,11 @@
           <div class="container">
             <h1 class="decision-title">Ефективні рішення для вашого бізнесу</h1>
 
-            <button type="button" class="btn-service">Замовити послугу</button>
+            <button type="button" class="btn-service" data-modal-open>Замовити послугу</button>
           </div>
-          <div class="backdrop">
+          <div class="backdrop is-hidden" data-modal>
             <div class="modal">
-              <button type="button" class="btn-modal">
+              <button type="button" class="btn-modal" data-modal-close>
                 <svg class="icon-close">
                   <use href="./images/icons.svg/sprite.svg#icon-close"></use>
                 </svg>
@@ -398,7 +398,7 @@
        </div>
       </div>
     </footer>
-    
+
     <script src="./js/modal.js"></script>
   </body>
 </html>
